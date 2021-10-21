@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-MoviesGuide/Pods-MoviesGuide-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BTNavigationDropdownMenu/BTNavigationDropdownMenu.framework
+${BUILT_PRODUCTS_DIR}/CollectionViewSlantedLayout/CollectionViewSlantedLayout.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/FBSDKLoginKit

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qoo-ni-4qF">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="7X0-KD-oIq">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qoo-ni-4qF" customClass="LoginViewController" customModule="MoviesGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Sr-hB-IVg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3k-iP-All">
+                                <rect key="frame" x="82" y="650.5" width="250" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="fUv-FA-Und"/>
+                                    <constraint firstAttribute="width" constant="250" id="x4u-Su-I4b"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="loginButton"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="Qoo-ni-4qF" eventType="touchUpInside" id="2AI-bI-fur"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please log in with Facebook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1fz-Ul-IsO">
+                                <rect key="frame" x="67.5" y="611.5" width="279" height="31"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="SgG-62-uCC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="448"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Guide" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1If-iw-mdr">
+                                <rect key="frame" x="10" y="195.5" width="394" height="57"/>
+                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FqI-Uh-FIe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="e3k-iP-All" firstAttribute="top" secondItem="1fz-Ul-IsO" secondAttribute="bottom" constant="8" symbolic="YES" id="6qC-O8-wbH"/>
+                            <constraint firstItem="1fz-Ul-IsO" firstAttribute="centerY" secondItem="1Sr-hB-IVg" secondAttribute="centerY" multiplier="1.4" id="Cke-04-Fav"/>
+                            <constraint firstItem="SgG-62-uCC" firstAttribute="top" secondItem="1Sr-hB-IVg" secondAttribute="top" id="INz-uz-heH"/>
+                            <constraint firstItem="1If-iw-mdr" firstAttribute="leading" secondItem="FqI-Uh-FIe" secondAttribute="leading" constant="10" id="Lc1-vo-bJz"/>
+                            <constraint firstItem="1fz-Ul-IsO" firstAttribute="centerX" secondItem="1Sr-hB-IVg" secondAttribute="centerX" id="VNm-yj-7s6"/>
+                            <constraint firstItem="1If-iw-mdr" firstAttribute="centerX" secondItem="SgG-62-uCC" secondAttribute="centerX" id="Wbt-4K-Re4"/>
+                            <constraint firstItem="SgG-62-uCC" firstAttribute="height" secondItem="1Sr-hB-IVg" secondAttribute="height" multiplier="0.5" id="cO6-rm-oIc"/>
+                            <constraint firstItem="SgG-62-uCC" firstAttribute="leading" secondItem="FqI-Uh-FIe" secondAttribute="leading" id="iZ7-Ws-Q45"/>
+                            <constraint firstItem="1If-iw-mdr" firstAttribute="centerY" secondItem="SgG-62-uCC" secondAttribute="centerY" id="md0-Dl-sHW"/>
+                            <constraint firstItem="FqI-Uh-FIe" firstAttribute="trailing" secondItem="SgG-62-uCC" secondAttribute="trailing" id="sJO-Nv-Dpp"/>
+                            <constraint firstItem="e3k-iP-All" firstAttribute="centerX" secondItem="1Sr-hB-IVg" secondAttribute="centerX" id="uex-ya-Vpb"/>
+                            <constraint firstItem="FqI-Uh-FIe" firstAttribute="trailing" secondItem="1If-iw-mdr" secondAttribute="trailing" constant="10" id="xuU-uq-oSd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="1If-iw-mdr" id="aYG-RP-cQr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4d6-mM-cMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2205.7971014492755" y="85.714285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login" width="250" height="333.5"/>
+        <image name="loginButton" width="127.5" height="35"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

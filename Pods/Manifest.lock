@@ -1,0 +1,42 @@
+PODS:
+  - BTNavigationDropdownMenu (0.7)
+  - CollectionViewSlantedLayout (3.1.1)
+  - FBAEMKit (12.0.2):
+    - FBSDKCoreKit_Basics (= 12.0.2)
+  - FBSDKCoreKit (12.0.2):
+    - FBAEMKit (= 12.0.2)
+    - FBSDKCoreKit_Basics (= 12.0.2)
+  - FBSDKCoreKit_Basics (12.0.2)
+  - FBSDKLoginKit (12.0.2):
+    - FBSDKCoreKit (= 12.0.2)
+  - Kingfisher (7.1.1)
+
+DEPENDENCIES:
+  - BTNavigationDropdownMenu
+  - CollectionViewSlantedLayout (~> 3.1)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Kingfisher (~> 7.0)
+
+SPEC REPOS:
+  trunk:
+    - BTNavigationDropdownMenu
+    - CollectionViewSlantedLayout
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  BTNavigationDropdownMenu: 57a72c74dc211db3564f5be168f4f7643491a7de
+  CollectionViewSlantedLayout: 24397455acd2461960bc45d394e0ef99c17d03ce
+  FBAEMKit: c6b8ddf8371640fcd1a3b844d0f8884c8f334cea
+  FBSDKCoreKit: 506c0fd1c09a3075f62be8fa36bdd921c563daa9
+  FBSDKCoreKit_Basics: c0701d1634c944d60dd3c6361d66dbd0e707a456
+  FBSDKLoginKit: d7c9f6ddff20d7b04c94d1f1f065dc7a441d44a0
+  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
+
+PODFILE CHECKSUM: d72aa4f0af465311b9612278606e0e8507993040
+
+COCOAPODS: 1.10.2
